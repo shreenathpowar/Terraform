@@ -1,0 +1,1 @@
+this is data to be copied at ec2 instance.
