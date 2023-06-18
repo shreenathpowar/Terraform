@@ -1,0 +1,8 @@
+instance_name        = "my-aws-ec2-instance"
+ami_owner_account_id = "099720109477"
+image_name           = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
+instance_type        = "t2.micro"
+root-device-type     = "ebs"
+virtualization-type  = "hvm"
+key_name             = "ssh_key"
+sg_name              = "ssh_inbound"
